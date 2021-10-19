@@ -1,0 +1,154 @@
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	font-family:sans-serif;
+}
+#nav-bar
+{
+	background-color:black;
+	position: sticky;
+	top:0;
+	z-index:10;
+	float: right;
+}
+
+.nav-link:hover{
+	background-color: rgb(161, 62, 131);
+}
+
+.navbar
+{
+    padding: 0 !important;
+}
+navbar-brand img
+{
+	height:40px;
+	padding-left:20px;
+}
+.navbar-nav li
+{
+	padding: 0 10px;
+}
+.navbar-nav li a
+{
+color:#fff !important;
+font-weight:600;
+float:right;
+text-align:left;
+}
+.fa-bars
+{
+	color:#fff;
+	font-size:30p !important;
+}
+.navbar-toggler
+{
+	outline:none !important;
+}
+
+/*---service section---*/
+#features1
+{
+	text-align: center;
+	padding: 10% 15%;
+}
+ #features
+ {
+    text-align: center;
+	padding: 10% 15%; 
+	background-image: url('https://th.bing.com/th/id/R.ca2fa015a1da7fb2750660e2132aead2?rik=iDgLakun1s5FdA&riu=http%3a%2f%2fwww.heritageregister.org.za%2fsites%2fdefault%2ffiles%2fsiteimages%2fstandard_bank_rosebank_-_heritage_portal_-_2018_-_2.jpg&ehk=a%2bIkVG0jvfKpJeHhYE87pS4OxJR9eRhBpxAnPiQGzts%3d&risl=&pid=ImgRaw&r=0');
+	border-radius: 8px;
+	max-width: none;
+	height: auto;
+	background-size: cover;
+	opacity: 0.7;
+	
+ }
+ .features1 h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+
+.features h3
+{
+	padding:5px;
+	margin-top:25px;
+	text-transform:uppercase;
+}
+.title::before
+{
+	content:'';
+	background:black;
+	height:5px;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	transform:translatey(63px);
+}
+.title::after
+{
+	content:'';
+	background:purple;
+	height:10px;
+	width:50px;
+	margin-left:auto;
+	margin-right:auto;
+    margin-bottom:40px;
+    display: block;
+	transform:translatey(8px);
+}
+#features .btn-primary
+{
+	box-shadow:none;
+	padding:10px 25px;
+	border:none;
+	align-content: center;
+	background-image:linear-gradient(to right,#a517ba,#5f1782)
+}
+button{
+	font-size: 20px;
+}
+/* Action*/
+  #action{
+    background-color:grey;
+    padding: 7% 15%;
+    text-align: center;
+    line-height: 1.5;
+    color: #fff;
+  }
+  .main{
+    font-size: 3rem;
+    line-height: 1.5;
+    padding: 10px 0px;
+  }
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  color:black;
+}
+
+/* footer */
+#footer{
+	background-color:grey;
+    color:#fff;
+    padding: 4% 25%;
+    text-align: center;
+	font-size: 20px;
+}
+#footer1{
+	background-color:grey;
+    color:#fff;
+    padding: 4% 25%;
+    text-align: center;
+	font-size: 20px;
+}
